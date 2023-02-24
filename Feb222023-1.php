@@ -1,15 +1,18 @@
+<?php
+    $webTilte = "www.sirmurtazaaptechtr.com";
+    $msg = "My name is Hussain";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php echo $webTilte;?></title>
 </head>
 <body>
     <h1>My Php Project</h1>
-    <?php
-        $msg = "My name is Hussain";
+    <?php        
         echo "this is my php webproject";
     ?>
     <h2>This is another heading</h2>
